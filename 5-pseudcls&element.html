@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <style>
+        
+        #p1::before{
+            content: "The start of the paragrahp to check pseudo elements.  ";
+            color: blueviolet;
+        }
+        
+        h1::after{
+            content: " pseudo class ";
+            color: brown;
+        }
+        #p2::first-letter{
+            color: red;
+            font-size: 30px;
+
+        }
+        label:hover{
+            background-color:rgb(0, 255, 42);
+        }
+        input:active{
+            background-color: aquamarine;
+        }
+        button:active{
+            background-color:lawngreen ;
+        }
+    </style>
+
+
+    <p id="p1">pseudo-element is used to style specified parts of an element. For example, it can be used to: Style the first letter, or line, of an element. Insert content before, or after, the content of an element..</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+        <h1>heading</h1><br><br>
+
+        <p id="p2">pseudo-classes are used to add styles to selectors, but only when those selectors meet certain conditions. A pseudo class is expressed by adding a colon (:) after a selector in CSS, followed by a pseudo-class such as "hover", "focus", or "active", like this: a:hover { /* your style here */ }.</p>
+
+
+        <label for="">Username :</label>
+        <input type="text"><br><br>
+
+        <button>click</button><br>
+
+        <a href="#p1">paragrapgh 1</a>
+</body>
+</html>

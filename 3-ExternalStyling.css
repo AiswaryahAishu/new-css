@@ -1,0 +1,13 @@
+h1{
+    
+    align-items: center;
+    background-color: yellow;
+}
+p{
+    
+    font-size: 20px;
+
+}
+h1, p{
+    color: green;
+}
